@@ -1,0 +1,59 @@
+# Игнорировать сгенерированные файлы и папки
+bin/                # Папка для скомпилированных бинарных файлов
+obj/                # Папка для объектных файлов
+build/              # Папка для файлов сборки (например, CMake)
+dist/               # Папка для дистрибутивов
+
+# Игнорировать исполняемые файлы
+*.exe               # Исполняемые файлы (Windows)
+*.out               # Исполняемые файлы (Linux/macOS)
+*.app               # Исполняемые файлы (macOS)
+
+# Игнорировать объектные файлы и файлы зависимостей
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+
+# Игнорировать файлы, созданные IDE
+.vscode/            # Настройки Visual Studio Code
+.idea/              # Настройки JetBrains IDE (например, CLion)
+*.sln               # Файлы решений Visual Studio
+*.vcxproj           # Файлы проектов Visual Studio
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.ncb
+*.sdf
+
+# Игнорировать файлы CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+
+# Игнорировать временные файлы
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Игнорировать логи
+*.log
+*.logs
+
+# Игнорировать системные файлы
+.DS_Store           # Файлы macOS
+Thumbs.db           # Файлы Windows
+desktop.ini         # Файлы Windows
+
+# Кэш
+.cache/
+*.cache
+
+

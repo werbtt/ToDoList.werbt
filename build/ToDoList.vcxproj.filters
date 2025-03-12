@@ -9,17 +9,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\toqwe\ToDoList\include\ToDoList.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <CustomBuild Include="C:\Users\toqwe\ToDoList\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{68C922EE-889D-3BB2-88FD-2F4CA6B581EB}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{BAC2979A-D85D-31DB-9646-D7DCD0AD323A}</UniqueIdentifier>
     </Filter>
