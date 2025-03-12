@@ -1,0 +1,10 @@
+^C:\USERS\TOQWE\TODOLIST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/toqwe/ToDoList -BC:/Users/toqwe/ToDoList/build --check-stamp-file C:/Users/toqwe/ToDoList/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
